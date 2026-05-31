@@ -1,0 +1,33 @@
+TEYZIX CORE EMPLOYEE ONBOARDING GUIDE
+
+All new employees must complete onboarding within their first week.
+
+Employees receive official company credentials from the IT department.
+
+Access to internal platforms is granted after identity verification.
+
+New hires are required to configure multi-factor authentication during account setup.
+
+Employees must review HR policies and cybersecurity guidelines before system access.
+
+Development team members are assigned GitHub repositories and project environments.
+
+All employees must install approved security and productivity software.
+
+Initial training includes project workflow, communication standards, and deployment procedures.
+
+Daily stand-up meetings are conducted every morning at 10:00 AM.
+
+Employees should submit weekly progress updates to their team lead.
+
+The engineering team follows Agile-based sprint workflows for project management.
+
+Code reviews are mandatory before merging changes into the production branch.
+
+Internal documentation is maintained inside the company knowledge portal.
+
+Employees are encouraged to use reusable and modular code practices.
+
+Support requests must be submitted through the internal ticketing system.
+
+New employees receive technical mentors during the probation period.

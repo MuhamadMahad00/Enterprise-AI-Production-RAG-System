@@ -1,0 +1,35 @@
+TEYZIX CORE TECHNICAL WIKI
+
+The engineering infrastructure is built primarily using Python and FastAPI services.
+
+Frontend applications are developed using React and TypeScript.
+
+Machine learning services use PyTorch and HuggingFace Transformers.
+
+Internal APIs follow RESTful architecture standards.
+
+FAISS is used for vector similarity search in AI retrieval systems.
+
+Redis is used for caching frequently accessed data and API responses.
+
+All backend services are containerized using Docker.
+
+CI/CD pipelines are managed using GitHub Actions.
+
+Cloud deployments are performed using AWS infrastructure.
+
+Monitoring and logging are handled using Prometheus and Grafana dashboards.
+
+Sensitive environment variables are managed using secure secret storage systems.
+
+All production APIs require JWT-based authentication.
+
+The AI engineering team uses LangChain for retrieval pipeline orchestration.
+
+Cross-encoder reranking models are used to improve retrieval relevance.
+
+Prompt injection filtering is applied before sending prompts to LLM services.
+
+Evaluation pipelines measure faithfulness, relevancy, and context recall metrics.
+
+Latency monitoring is continuously tracked for all AI inference services.

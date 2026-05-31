@@ -1,0 +1,275 @@
+[
+  {
+    "timestamp": "2026-05-31T22:34:40.301990",
+    "query": "What are office timings?",
+    "total_latency": 3.9271,
+    "breakdown": {
+      "guardrails": 0.0078,
+      "query_processing": 0.0001,
+      "retrieval": 0.3728,
+      "reranking": 0.4771,
+      "generation": 3.0692,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:37:11.343066",
+    "query": "What are the office timings?",
+    "total_latency": 3.5404,
+    "breakdown": {
+      "guardrails": 0.0059,
+      "query_processing": 0.0,
+      "retrieval": 0.0856,
+      "reranking": 0.3575,
+      "generation": 3.0912,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:37:59.347428",
+    "query": "What are the office timings?",
+    "total_latency": 2.6298,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0735,
+      "reranking": 0.2075,
+      "generation": 2.3485,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:16.044600",
+    "query": "What are the office timings?",
+    "total_latency": 2.2552,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0421,
+      "reranking": 0.6422,
+      "generation": 1.5705,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:17.401331",
+    "query": "How many annual leaves are allowed?",
+    "total_latency": 1.3527,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.059,
+      "reranking": 0.41,
+      "generation": 0.8836,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:19.369345",
+    "query": "Is remote work allowed?",
+    "total_latency": 1.9127,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.2209,
+      "reranking": 0.4277,
+      "generation": 1.2638,
+      "output_validation": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:20.648777",
+    "query": "What authentication is mandatory?",
+    "total_latency": 1.2765,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0754,
+      "reranking": 0.2907,
+      "generation": 0.91,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:22.282818",
+    "query": "Which cloud platform is used?",
+    "total_latency": 1.6311,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.0366,
+      "reranking": 0.4193,
+      "generation": 1.175,
+      "output_validation": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:23.552982",
+    "query": "What is the dress code policy?",
+    "total_latency": 1.2674,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0391,
+      "reranking": 0.3692,
+      "generation": 0.8589,
+      "output_validation": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:24.831207",
+    "query": "How many sick leaves are available per year?",
+    "total_latency": 1.2742,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0607,
+      "reranking": 0.4457,
+      "generation": 0.7673,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:26.234440",
+    "query": "What is the probation period?",
+    "total_latency": 1.3987,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.058,
+      "reranking": 0.5441,
+      "generation": 0.7964,
+      "output_validation": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:28.387699",
+    "query": "What is the notice period for resignation?",
+    "total_latency": 2.1496,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0875,
+      "reranking": 0.747,
+      "generation": 1.3149,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:39:29.646139",
+    "query": "Is overtime compensated?",
+    "total_latency": 1.2543,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.0665,
+      "reranking": 0.41,
+      "generation": 0.7775,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:52:05.801512",
+    "query": "What is the company's remote work policy?",
+    "total_latency": 4.2131,
+    "breakdown": {
+      "guardrails": 0.0055,
+      "query_processing": 0.0,
+      "retrieval": 0.0883,
+      "reranking": 0.6811,
+      "generation": 3.438,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:00.584080",
+    "query": "What is the company's remote work policy?",
+    "total_latency": 3.2346,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.2176,
+      "reranking": 1.6476,
+      "generation": 1.369,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:35.521143",
+    "query": "What are the office timings?",
+    "total_latency": 2.3659,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.0863,
+      "reranking": 0.8001,
+      "generation": 1.479,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:37.511733",
+    "query": "How many annual leaves are allowed?",
+    "total_latency": 1.9615,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.0688,
+      "reranking": 0.7758,
+      "generation": 1.1167,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:39.123572",
+    "query": "Is remote work allowed?",
+    "total_latency": 1.5806,
+    "breakdown": {
+      "guardrails": 0.0003,
+      "query_processing": 0.0,
+      "retrieval": 0.1511,
+      "reranking": 0.5601,
+      "generation": 0.869,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:40.725400",
+    "query": "What authentication is mandatory?",
+    "total_latency": 1.5754,
+    "breakdown": {
+      "guardrails": 0.0002,
+      "query_processing": 0.0,
+      "retrieval": 0.1227,
+      "reranking": 0.4443,
+      "generation": 1.008,
+      "output_validation": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:53:42.275566",
+    "query": "Which cloud platform is used?",
+    "total_latency": 1.5239,
+    "breakdown": {
+      "guardrails": 0.0001,
+      "query_processing": 0.0,
+      "retrieval": 0.0421,
+      "reranking": 0.5697,
+      "generation": 0.9118,
+      "output_validation": 0.0001
+    }
+  },
+  {
+    "timestamp": "2026-05-31T22:54:10.263184",
+    "query": "What are the office timings?",
+    "total_latency": 4.5377,
+    "breakdown": {
+      "guardrails": 0.0003,
+      "query_processing": 0.0,
+      "retrieval": 0.5441,
+      "reranking": 2.4226,
+      "generation": 1.5702,
+      "output_validation": 0.0002
+    }
+  }
+]

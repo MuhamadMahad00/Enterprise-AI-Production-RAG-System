@@ -1,0 +1,226 @@
+{
+  "evaluation_id": "20260531_223929",
+  "timestamp": "2026-05-31T22:39:29.652099",
+  "total_questions": 10,
+  "accuracy": 0.5,
+  "average_latency": 1.59,
+  "p95_latency": 2.26,
+  "latency_sla_met": true,
+  "ragas_scores": {
+    "faithfulness": 0.521,
+    "answer_relevancy": 0.517,
+    "context_recall": 0.633
+  },
+  "results": [
+    {
+      "question": "What are the office timings?",
+      "category": "hr_policy",
+      "expected": "9:00 AM to 5:00 PM",
+      "answer": "Office timings are from 9:00 AM to 5:00 PM, Monday through Friday [Source 1].",
+      "grounded": true,
+      "latency": 2.26,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.833,
+      "relevancy": 1.0,
+      "context_recall": 1.0,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0421,
+        "reranking": 0.6422,
+        "generation": 1.5705,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "How many annual leaves are allowed?",
+      "category": "hr_policy",
+      "expected": "20 annual paid leaves",
+      "answer": "Employees are entitled to 20 annual paid leaves per calendar year. [Source 1]",
+      "grounded": true,
+      "latency": 1.36,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.889,
+      "relevancy": 0.5,
+      "context_recall": 1.0,
+      "latency_breakdown": {
+        "guardrails": 0.0001,
+        "query_processing": 0.0,
+        "retrieval": 0.059,
+        "reranking": 0.41,
+        "generation": 0.8836,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "Is remote work allowed?",
+      "category": "hr_policy",
+      "expected": "Remote work is allowed",
+      "answer": "Remote work is allowed for approved employees based on project requirements. [Source 1]",
+      "grounded": true,
+      "latency": 1.97,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.889,
+      "relevancy": 1.0,
+      "context_recall": 1.0,
+      "latency_breakdown": {
+        "guardrails": 0.0001,
+        "query_processing": 0.0,
+        "retrieval": 0.2209,
+        "reranking": 0.4277,
+        "generation": 1.2638,
+        "output_validation": 0.0
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "What authentication is mandatory?",
+      "category": "technical",
+      "expected": "Two-factor authentication",
+      "answer": "Two-factor authentication is mandatory for all internal platforms. [Source 1]",
+      "grounded": true,
+      "latency": 1.28,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.875,
+      "relevancy": 1.0,
+      "context_recall": 1.0,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0754,
+        "reranking": 0.2907,
+        "generation": 0.91,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "Which cloud platform is used?",
+      "category": "technical",
+      "expected": "AWS",
+      "answer": "AWS infrastructure is used for cloud deployments. [Source 1]",
+      "grounded": true,
+      "latency": 1.63,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.833,
+      "relevancy": 0.667,
+      "context_recall": 1.0,
+      "latency_breakdown": {
+        "guardrails": 0.0001,
+        "query_processing": 0.0,
+        "retrieval": 0.0366,
+        "reranking": 0.4193,
+        "generation": 1.175,
+        "output_validation": 0.0
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "What is the dress code policy?",
+      "category": "hr_policy",
+      "expected": "business casual",
+      "answer": "⚠️ Response failed grounding validation.",
+      "grounded": false,
+      "latency": 1.27,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.0,
+      "relevancy": 0.0,
+      "context_recall": 0.333,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0391,
+        "reranking": 0.3692,
+        "generation": 0.8589,
+        "output_validation": 0.0
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "How many sick leaves are available per year?",
+      "category": "hr_policy",
+      "expected": "10 sick leaves",
+      "answer": "⚠️ Response failed grounding validation.",
+      "grounded": false,
+      "latency": 1.28,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.0,
+      "relevancy": 0.0,
+      "context_recall": 0.667,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0607,
+        "reranking": 0.4457,
+        "generation": 0.7673,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "What is the probation period?",
+      "category": "hr_policy",
+      "expected": "3 months probation period",
+      "answer": "New employees receive technical mentors during the probation period. [Source 1]",
+      "grounded": false,
+      "latency": 1.4,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.889,
+      "relevancy": 1.0,
+      "context_recall": 0.333,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.058,
+        "reranking": 0.5441,
+        "generation": 0.7964,
+        "output_validation": 0.0
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "What is the notice period for resignation?",
+      "category": "hr_policy",
+      "expected": "30 days notice period",
+      "answer": "⚠️ Response failed grounding validation.",
+      "grounded": false,
+      "latency": 2.15,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.0,
+      "relevancy": 0.0,
+      "context_recall": 0.0,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0875,
+        "reranking": 0.747,
+        "generation": 1.3149,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    },
+    {
+      "question": "Is overtime compensated?",
+      "category": "hr_policy",
+      "expected": "overtime is compensated",
+      "answer": "⚠️ Response failed grounding validation.",
+      "grounded": false,
+      "latency": 1.26,
+      "model": "openai/gpt-3.5-turbo",
+      "faithfulness": 0.0,
+      "relevancy": 0.0,
+      "context_recall": 0.0,
+      "latency_breakdown": {
+        "guardrails": 0.0002,
+        "query_processing": 0.0,
+        "retrieval": 0.0665,
+        "reranking": 0.41,
+        "generation": 0.7775,
+        "output_validation": 0.0001
+      },
+      "num_sources": 3
+    }
+  ]
+}
